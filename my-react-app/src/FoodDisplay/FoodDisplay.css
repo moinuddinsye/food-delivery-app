@@ -1,0 +1,32 @@
+.item-container{
+    color: green;
+    display:flex;
+    /* background-color: yellow; */
+    
+}
+.food-image, .food-star{
+    height: 100px;
+    object-fit: contain;
+    display: inline;
+}
+.food-items{
+    padding: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    /* width: 300px; */
+    border: 1px solid tomato;
+}
+.food-display-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:20px;
+    
+}
+.food-list-container h1{
+    text-align: center;
+    color: #757575;
+    margin-bottom: 80px;
+}

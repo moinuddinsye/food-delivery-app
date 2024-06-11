@@ -1,0 +1,36 @@
+.main-footer-container{
+    background-color: #3C5B6F;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    color: white;
+}
+.footer-left img{
+    height: 50px;
+    mix-blend-mode: color-burn;
+    margin-left: 35px;
+}
+.footer-left{
+    width: 33%;
+    text-align: center;
+}
+.footer-left p{
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+}
+.footer-middle{
+    margin-left:15%;
+    /* text-align: center; */
+}
+.footer-right{
+    /* width: 33%; */
+    margin-left: 20%;
+    /* text-align: center; */
+}
+.footer-copy-right{
+    background-color: #3C5B6F;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 20%;
+}

@@ -1,0 +1,24 @@
+.item-container{
+    color: green;
+    display:flex;
+    /* background-color: yellow; */
+    
+}
+.food-image, .food-star{
+    height: 100px;
+    object-fit: contain;
+    display: inline;
+}
+.food-items{
+    padding: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    /* width: 300px; */
+    border: 1px solid tomato;
+}
+button:hover{
+    background-color: wheat;
+}

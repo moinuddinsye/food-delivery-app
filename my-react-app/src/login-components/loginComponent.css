@@ -1,0 +1,78 @@
+.login-container img{
+    height: 10px;
+    object-fit: contain;
+}
+.login-container h1{
+    text-align:center;
+}
+.inputs{
+    display: block;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 1 px solid tomato;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.login-button{
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: hsl(120, 92%, 35%);
+    color: white;
+}
+.login-main{
+    position: relative;
+    place-self: center;
+    border: 5px soild black;
+}
+.login-main-div{
+    display: grid;
+    position: relative;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-color: yellow; */
+    
+
+}
+.terms{
+    display: flex;
+}
+.terms p{
+    font-weight: 600;
+    color:#747474;
+}
+.show-login{
+    color:#747474;
+    padding-left:10px;
+}
+.show-login span{
+    border: 1px solid tomato;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.cancel-image{
+    position: absolute;
+     height: 20px;
+    right: 0px;
+    top:0px;
+}
+.login-component-main{
+    /* height: 100%;
+    width: 100%; */
+    /* z-index: 2;
+    display: grid;
+    position: absolute; */
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}

@@ -1,0 +1,21 @@
+.app-info p{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+.app-images{
+    display: flex;
+    justify-content: space-around;
+
+}
+.app{
+    height: 100px;
+    object-fit: cover;
+    
+}
+.play{
+    height: 120px;
+    object-fit: cover;
+    
+}
